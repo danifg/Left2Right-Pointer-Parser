@@ -7,6 +7,5 @@ This implementation requires Python 2.7, PyTorch >=0.3.0 and Gensim >= 0.12.0.
 ### Experiments
 To train and test the parser, just include the paths for data and embeddings and run:
 
-    ./example/run_L2R_parser.sh
+    ./scripts/run_L2R_parser.sh
 
-For more information, please visit https://github.com/XuezheMax/NeuroNLP2.
