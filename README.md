@@ -5,7 +5,7 @@ This repository includes the code of the left-to-right parser with pointer netwo
 This implementation requires Python 2.7, PyTorch 0.3.1 and Gensim >= 0.12.0. 
 
 ### Experiments
-To train and test the parser, just include the paths for data and embeddings in the script, and run:
+To train and test the parser, just include the paths for data and embeddings in the following script, and run it:
 
     ./scripts/run_L2R_parser.sh
 
