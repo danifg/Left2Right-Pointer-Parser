@@ -1,7 +1,7 @@
 # Left2Right-Pointer-Parser
 This repository includes the code of the left-to-right parser with pointer networks described in NAACL paper [Left-to-Right Dependency Parsing with Pointer Networks](https://arxiv.org/abs/1903.08445). The implementation is based on the dependency parser by Ma et al. (2018) (https://github.com/XuezheMax/NeuroNLP2) and reuses part of its code, including data preparation and evaluating scripts.
 
-A more efficient implementation of the left-to-right parser can be found in (https://github.com/danifg/SyntaxPointer). While this alternative version does not control the generation of cycles during decoding, it provides a faster batch decoding and includes a "parse" mode to test already-trained models. 
+A more efficient implementation of the left-to-right parser can be found in (https://github.com/danifg/SyntacticPointer). While this alternative version does not control the generation of cycles during decoding, it provides a faster batch decoding and includes a "parse" mode to test already-trained models. 
 
 ### Requirements
 This implementation requires Python 2.7, PyTorch 0.3.1 and Gensim >= 0.12.0. 
